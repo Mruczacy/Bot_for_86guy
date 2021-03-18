@@ -1,0 +1,14 @@
+{
+    "name": "bot_for_86guy",
+    "version": "1.0.0",
+    "description": "Ordered bot by 86guy",
+    "main": "index.js",
+    "scripts": {
+        "node": "node"
+    },
+    "author": "Mruczacy",
+    "license": "MIT",
+    "dependencies": {
+        "discord.js": "^12.5.1"
+    }
+}
