@@ -14,7 +14,7 @@ client.on("message", message => {
     if (client.user.id != message.author.id) {
         for (let i = 0; i < args.length; i++) {
             if (configcontent.niggalist.includes(args[i])) {
-                let channel = client.channels.cache.get("715643100693004338");
+                let channel = client.channels.cache.get(configcontent.channel_id);
                 channel.send("User " + message.author.tag + " has used bad word\nLink is here: https://discord.com/channels/" + message.guild.id + "/" + message.channel.id + "/" + message.id);
                 return;
             }
